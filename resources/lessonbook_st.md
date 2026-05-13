@@ -139,9 +139,10 @@ Ex. 関数を使ってプログラムを見やすくする<br>
 Exは順不同。<br>
 
 # プログラム
+
 プログラムは以下から書いてください
 
-https://trinket.io/python/80fea69346
+<a href="https://trinket.io/python/80fea69346" target="_blank" rel="noopener noreferrer">https://trinket.io/python/80fea69346</a>
 
 # turtleの基本
 <img src="./image/color.png" width="50%" height=50%>
