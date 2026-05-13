@@ -242,6 +242,8 @@ for i in range(4):
 ## ①四角形を描く
 まずは、ビルの形になる長方形を描きます。<br>
 
+<img src="./image/buil_on.png" width="50%" height=50%>
+
 ```python:main.py
 for i in range(2):
   forward(100)
@@ -264,6 +266,8 @@ for i in range(2):
 
 ## ②色を付けて塗りつぶす
 次に、ビルに色を付けて塗りつぶします。<br>
+
+<img src="./image/buil.png" width="50%" height=50%>
 
 ```python:main.py
 color("gray")
@@ -300,9 +304,15 @@ endfill()
 ビルだけでは少し寂しいので、次に窓を作ります。<br>
 窓も四角形なので、for文を使って描けます。<br>
 
+<img src="./image/window.png" width="50%" height=50%>
+
+
 ## ①線を引かずに移動する
 窓を描く前に、ビルの中まで移動します。<br>
 そのまま移動すると線が引かれてしまうので、`penup()`を使います。<br>
+
+<img src="./image/move.png" width="50%" height=50%>
+
 
 ```python:main.py
 penup()
@@ -317,6 +327,9 @@ pendown()
 
 ## ②for文で窓を横に並べる
 まず、1つの窓は四角形なので、次のように描けます。<br>
+
+<img src="./image/window.png" width="50%" height=50%>
+
 
 ```python:main.py
 color("yellow")
@@ -373,6 +386,8 @@ for n in range(4):
 ここでは、夜空に上がる花火を作っていきます。<br>
 花火は、中心から外に向かって線を何本も引くことで作れます。<br>
 
+<img src="./image/fire.png" width="50%" height=50%>
+
 ## ①中心から線を伸ばす
 まずは、中心から1本の線を引いてみます。<br>
 
@@ -415,7 +430,9 @@ for i in range(18):
 ```
 
 ## Work4 花火の色と大きさを変えてみよう
-花火の色をblueにして、線の長さを50に変更してください。<br>
+線の長さや色を変更してみましょう。<br>
+
+<img src="./image/1.png" width="50%" height=50%>
 
 <details><summary>答え</summary>
 
